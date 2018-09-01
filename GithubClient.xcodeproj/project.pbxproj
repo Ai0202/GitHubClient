@@ -18,6 +18,7 @@
 		0D894F16213A499D00FAE88F /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F15213A499D00FAE88F /* UserListViewModel.swift */; };
 		0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F19213A796D00FAE88F /* UserCellViewModel.swift */; };
 		0D894F1C213A7E2400FAE88F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F1B213A7E2400FAE88F /* UIImage.swift */; };
+		0D894F1F213AE20600FAE88F /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F1E213AE20600FAE88F /* TimeLineCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0D894F15213A499D00FAE88F /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		0D894F19213A796D00FAE88F /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		0D894F1B213A7E2400FAE88F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		0D894F1E213AE20600FAE88F /* TimeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0D894F15213A499D00FAE88F /* UserListViewModel.swift */,
 				0D894F19213A796D00FAE88F /* UserCellViewModel.swift */,
 				0D894F01213A330A00FAE88F /* Main.storyboard */,
+				0D894F1E213AE20600FAE88F /* TimeLineCell.swift */,
 				0D894F04213A330B00FAE88F /* Assets.xcassets */,
 				0D894F06213A330C00FAE88F /* LaunchScreen.storyboard */,
 				0D894F09213A330C00FAE88F /* Info.plist */,
@@ -167,6 +170,7 @@
 				0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */,
 				0D894EFE213A330A00FAE88F /* AppDelegate.swift in Sources */,
 				0D894F14213A3FBD00FAE88F /* ImageDownLoader.swift in Sources */,
+				0D894F1F213AE20600FAE88F /* TimeLineCell.swift in Sources */,
 				0D894F12213A395F00FAE88F /* API.swift in Sources */,
 				0D894F10213A334600FAE88F /* User.swift in Sources */,
 			);
