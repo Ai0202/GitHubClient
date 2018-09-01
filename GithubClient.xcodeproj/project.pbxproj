@@ -16,6 +16,8 @@
 		0D894F12213A395F00FAE88F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F11213A395F00FAE88F /* API.swift */; };
 		0D894F14213A3FBD00FAE88F /* ImageDownLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F13213A3FBD00FAE88F /* ImageDownLoader.swift */; };
 		0D894F16213A499D00FAE88F /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F15213A499D00FAE88F /* UserListViewModel.swift */; };
+		0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F19213A796D00FAE88F /* UserCellViewModel.swift */; };
+		0D894F1C213A7E2400FAE88F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F1B213A7E2400FAE88F /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0D894F11213A395F00FAE88F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0D894F13213A3FBD00FAE88F /* ImageDownLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownLoader.swift; sourceTree = "<group>"; };
 		0D894F15213A499D00FAE88F /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		0D894F19213A796D00FAE88F /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		0D894F1B213A7E2400FAE88F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +66,28 @@
 		0D894EFC213A330A00FAE88F /* GithubClient */ = {
 			isa = PBXGroup;
 			children = (
+				0D894F1D213A7E2D00FAE88F /* Extentions */,
 				0D894EFD213A330A00FAE88F /* AppDelegate.swift */,
 				0D894EFF213A330A00FAE88F /* ViewController.swift */,
 				0D894F0F213A334600FAE88F /* User.swift */,
 				0D894F11213A395F00FAE88F /* API.swift */,
 				0D894F13213A3FBD00FAE88F /* ImageDownLoader.swift */,
 				0D894F15213A499D00FAE88F /* UserListViewModel.swift */,
+				0D894F19213A796D00FAE88F /* UserCellViewModel.swift */,
 				0D894F01213A330A00FAE88F /* Main.storyboard */,
 				0D894F04213A330B00FAE88F /* Assets.xcassets */,
 				0D894F06213A330C00FAE88F /* LaunchScreen.storyboard */,
 				0D894F09213A330C00FAE88F /* Info.plist */,
 			);
 			path = GithubClient;
+			sourceTree = "<group>";
+		};
+		0D894F1D213A7E2D00FAE88F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0D894F1B213A7E2400FAE88F /* UIImage.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D894F00213A330A00FAE88F /* ViewController.swift in Sources */,
+				0D894F1C213A7E2400FAE88F /* UIImage.swift in Sources */,
 				0D894F16213A499D00FAE88F /* UserListViewModel.swift in Sources */,
+				0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */,
 				0D894EFE213A330A00FAE88F /* AppDelegate.swift in Sources */,
 				0D894F14213A3FBD00FAE88F /* ImageDownLoader.swift in Sources */,
 				0D894F12213A395F00FAE88F /* API.swift in Sources */,
