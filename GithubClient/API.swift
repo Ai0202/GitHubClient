@@ -25,6 +25,7 @@ enum APIError: Error, CustomStringConvertible {
 }
 
 class API {
+    
     func getUsers(success: @escaping ([User]) -> Void,
                   failure: @escaping (Error) -> Void)
     {
