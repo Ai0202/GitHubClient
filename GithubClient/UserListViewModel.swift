@@ -14,7 +14,7 @@ import UIKit
 enum ViewModelState {
     case loading
     case finish
-    case errror(Error)
+    case error(Error)
 }
 
 final class UserListViewModel {
@@ -53,7 +53,7 @@ final class UserListViewModel {
             
         }) { (error) in
             //通信が失敗したので、.error通知を送る
-            self.stateDidUpdate?(.errror(error))
+            self.stateDidUpdate?(.error(error))
         }
     }
     

@@ -19,6 +19,7 @@
 		0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F19213A796D00FAE88F /* UserCellViewModel.swift */; };
 		0D894F1C213A7E2400FAE88F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F1B213A7E2400FAE88F /* UIImage.swift */; };
 		0D894F1F213AE20600FAE88F /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F1E213AE20600FAE88F /* TimeLineCell.swift */; };
+		0D894F21213AE6B000FAE88F /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D894F20213AE6B000FAE88F /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0D894F19213A796D00FAE88F /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		0D894F1B213A7E2400FAE88F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		0D894F1E213AE20600FAE88F /* TimeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
+		0D894F20213AE6B000FAE88F /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				0D894F19213A796D00FAE88F /* UserCellViewModel.swift */,
 				0D894F01213A330A00FAE88F /* Main.storyboard */,
 				0D894F1E213AE20600FAE88F /* TimeLineCell.swift */,
+				0D894F20213AE6B000FAE88F /* TimeLineViewController.swift */,
 				0D894F04213A330B00FAE88F /* Assets.xcassets */,
 				0D894F06213A330C00FAE88F /* LaunchScreen.storyboard */,
 				0D894F09213A330C00FAE88F /* Info.plist */,
@@ -167,6 +170,7 @@
 				0D894F00213A330A00FAE88F /* ViewController.swift in Sources */,
 				0D894F1C213A7E2400FAE88F /* UIImage.swift in Sources */,
 				0D894F16213A499D00FAE88F /* UserListViewModel.swift in Sources */,
+				0D894F21213AE6B000FAE88F /* TimeLineViewController.swift in Sources */,
 				0D894F1A213A796D00FAE88F /* UserCellViewModel.swift in Sources */,
 				0D894EFE213A330A00FAE88F /* AppDelegate.swift in Sources */,
 				0D894F14213A3FBD00FAE88F /* ImageDownLoader.swift in Sources */,
